@@ -4,27 +4,27 @@ from scraper import *
 app = FastAPI()
 
 @app.get('/hagenberg')
-def bachelors():
+def getHagenberg():
     return{
-        hagenberg
+        "Hagenberg":hagenberg
     }
 
 @app.get('/linz')
-def bachelors():
+def getLinz():
     return{
-        linz
+        "Linz":linz
     }
 
 @app.get('/steyr')
-def bachelors():
+def getWels():
     return{
-        wels
+        "Steyr":steyr
     }
 
 @app.get('/wels')
-def bachelors():
+def getWels():
     return{
-        wels
+        "Wels":wels
     }
 
 
