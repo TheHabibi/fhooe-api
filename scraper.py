@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 class Program:
     def __init__(self, title, desc):
-        self.original_title = title
-        self.release_date = desc
+        self.name = title
+        self.desc = desc
 
 def getDepartment(url):
     response = requests.get(url)
