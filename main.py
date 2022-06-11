@@ -3,13 +3,28 @@ from scraper import *
 
 app = FastAPI()
 
-@app.get('/bachelors')
+@app.get('/hagenberg')
 def bachelors():
     return{
-        "Hagenberg": hagenberg,
-        "Linz": linz,
-        "Steyr": steyr,
-        "Wels": wels
+        hagenberg
+    }
+
+@app.get('/linz')
+def bachelors():
+    return{
+        linz
+    }
+
+@app.get('/steyr')
+def bachelors():
+    return{
+        wels
+    }
+
+@app.get('/wels')
+def bachelors():
+    return{
+        wels
     }
 
 
