@@ -1,9 +1,10 @@
 # FHOOE API
  
 # Features
-- A free API for University of Applied Sciences Upper Austria 
+- A free API for University of Applied Sciences Upper Austria
+- Developed using Web Scaping using the BeautifulSoup Framework
 - You can send requests and get information about all FHOOE Bachelor Programs categorized by campus.
-- You can request Campus, Program Name, Program Description and ECTS
+- You can request Campus, Program Name, Description data
 
 # How to Use
 - **Example:** Use this url to fetch all bachelor programs data 
